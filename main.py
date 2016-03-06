@@ -144,6 +144,8 @@ class EmailsResource(object):
             logger.exception('Unexpected exception.')
             raise
 
+        resp.status = falcon.HTTP_204
+
 
 # Create the falcon app.
 app = api = falcon.API(middleware=[utils.JSONTranslator()])
