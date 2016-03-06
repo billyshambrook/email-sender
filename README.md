@@ -88,7 +88,7 @@ application.
 ```
 virtualenv venv
 source venv/bin/activate
-pip install -r requirements
+pip install -r requirements.txt
 ```
 
 You can run the app with the following command.
