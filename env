@@ -1,0 +1,4 @@
+MAILGUN_API_KEY = 'your-mailgun-key'
+MAILGUN_DOMAIN = 'your-mailgun-domain'
+MANDRILL_API_KEY = 'your-mandrill-key'
+API_KEY = 'you-api-key'
