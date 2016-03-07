@@ -34,6 +34,8 @@ The ``JSONTranslator`` in the ``utils.py`` file was taken from the Falcon quicks
 
 The ``mandrill`` python library is used to simplify integration.
 
+Circuit breakers are implemented using the ``pybreaker`` package. This could be expanded to raise additional events such as the distinction between the breaker failing because of the wrapped function or because the circuit is open.
+
 ## API
 
 ### Send email
